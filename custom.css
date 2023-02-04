@@ -48,4 +48,14 @@ section {
     .s1-pic1,.s2-pic1 {
         width: 100%;
     }
+    button {
+    background-color: pink;
+    border: 0px;
+    width: 45%;
+    height: 6%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 0px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
