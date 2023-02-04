@@ -35,19 +35,42 @@
     <section class="section-one">
         <div class="container">
             <h2 class="s1-h1">January 13, 2022</h2>
-            <img src="eri3.jpg" alt="IU" class="s1-pic1">
-            <p class="s1-p1">Tumambay kela charles because why not HAHAAHAHA. 
-            Nagluto ako nyan pero di ko na pic :< 
+            <video  id="eri" width="143" height="250" controls>
+                <source src="Eri.mp4" type="video/mp4">
+              </video>
+            <script> 
+                var myVideo = document.getElementById("eri"); 
+                
+                function playPause() { 
+                  if (myVideo.paused) 
+                    myVideo.play(); 
+                  else 
+                    myVideo.pause(); 
+                }</script>
+            <p class="s1-p1">Kindat na nakaka inlove 🥰
             </p>
+            <button onclick="playPause()">Play/Pause</button>
         </div>
     </section>
 
     <section class="section-two">
         <div class="container">
-            <h2 class="s2-h1">February 3, 2023</h2>
-            <img src="eri4.jpg" alt="IU" class="s2-pic1">
-            <p class="s2-p1">Sexy mo naman madam 🥰</p>
+            <h2 class="s2-h1">January 13, 2022</h2>
+            <img src="eri3.jpg" alt="IU" class="s1-pic1">
+            <p class="s2-p1">Tumambay kela charles because why not HAHAAHAHA. 
+            Nagluto ako nyan pero di ko na pic :< 
+            </p>
         </div>
     </section>
+
+    <section class="section-one">
+        <div class="container">
+            <h2 class="s1-h1">February 3, 2023</h2>
+            <img src="eri4.jpg" alt="IU" class="s2-pic1">
+            <p class="s1-p1">Sexy mo naman madam 🥰</p>
+        </div>
+    </section>
+
+    
 </body>
 </html>
